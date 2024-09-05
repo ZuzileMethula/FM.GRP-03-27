@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace admin_Landing.Models
+namespace FM.GRP_03_27.Models.Admin
 {
 	public class FridgeModel
 	{
@@ -15,7 +15,7 @@ namespace admin_Landing.Models
 
 		[Required]
 		public string Condition { get; set; }
-
-
 	}
+
+
 }

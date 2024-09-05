@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-namespace admin_Landing.Models
+
+namespace FM.GRP_03_27.Models.Admin
 {
-	
 	public class Supplier
 	{
 		[Required]
@@ -24,5 +24,4 @@ namespace admin_Landing.Models
 		[Required]
 		public string PhysicalAddress { get; set; }
 	}
-
 }
